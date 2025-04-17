@@ -1,3 +1,5 @@
+// USING REQUIRE ANIMATION FRAME
+
 
 const fiveSecondButton = document.querySelector(".fiveSecondClick");
 const tenSecondButton = document.querySelector(".tenSecondClick");
