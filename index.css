@@ -1,0 +1,80 @@
+.button {
+
+    width: auto;
+    padding: 1rem;
+    height: 3rem;
+    /* padding: 1rem; */
+    cursor: pointer;
+}
+
+.flex {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    gap: 4rem;
+    padding: 0 10rem;
+}
+
+.box {
+    border: 2px solid;
+    height: 500px;
+    width: fit-content;
+    padding: 1rem;
+}
+
+
+.secondBox {
+   
+}
+
+
+.order {
+    width: 73rem;
+    height: 13rem;
+    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+    gap: 2rem;
+}
+
+.order>div {
+    margin: 1rem;
+    height: auto;
+    min-height: 10rem;
+    border-bottom: 2px solid;
+}
+
+.order_details {
+    width: auto;
+    height: 13rem;
+}
+
+#myList>li:first-child {
+    color: red
+}
+
+
+.flex_box {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.flex_box>div {
+    width: 500px;
+    height: auto;
+}
+
+.counter {
+    text-align: center;
+    align-items: center;
+    width: 100px;
+    height: 2rem;
+    margin: 12px;
+    width: 0;
+    padding-top: 1rem;
+    border-radius: 2px;
+    background-color: rgb(187, 185, 182);
+}

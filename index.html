@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+
+  <div class="flex">
+
+    <button class="button fiveSecondClick"> 5 Seconds</button>
+    <button class="button tenSecondClick">10 Seconds</button>
+    <button class="button fifteenSecondClick">15 Seconds</button>
+    <button class="button clearCurrentPromise">Clear Current</button>
+    <button class="button clearAllPromises">Clear All</button>
+
+  </div>
+
+  <div class="flex_box">
+
+    <div class="order">
+      <div class="order_details">
+        <h3>Pending ⏳</h3>
+        <ul id="myList">
+          <!-- <li></li> -->
+        </ul>
+      </div>
+      <div class="resolved_div">
+        <h3>Resolved ✅</h3>
+        <ul id="resolved">
+
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="box">
+      <h6>Five Second Promise Progress Report</h6>
+
+      <div class="fiveSecondBox counter "></div>
+      <hr/>
+      <h6>Ten Second Promise Progress Report</h6>
+
+      <div class="tenSecondBox counter"></div>
+      <hr/>
+     
+      <h6>Fifteen Second Promise Progress Report</h6>
+      <div class="fifteenSecondBox counter"></div>
+    </div>
+  </div>
+  <script src="index2.js" type="module"></script>
+</body>
+
+</html>
