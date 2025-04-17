@@ -1,4 +1,7 @@
 
+// USING SETINTERVAL FUNCTION
+
+
 const fiveSecondButton = document.querySelector(".fiveSecondClick");
 const tenSecondButton = document.querySelector(".tenSecondClick");
 const fifteenSecondButton = document.querySelector(".fifteenSecondClick");
